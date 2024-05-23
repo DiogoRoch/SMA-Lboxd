@@ -8,7 +8,7 @@
     - genres.csv and countries.csv however are inside the Data folder.
 ### **Data folder**
 - Our augmented dataset is stored as a zip file inside the Data folder "augm_lboxd.zip":
-    - **augm_lboxd.csv** -> contains our augmented dataset (users and movies + date, duration, genre, country, average rating)
+- **augm_lboxd.csv** -> contains our augmented dataset (users and movies + date, duration, genre, country, average rating)
     - This dataset should also be produced when running notebook 4.
 - **lbxd_genres.csv** -> contains the genres corresponding to movies.csv.
 - **lbxd_countries.csv** -> contains the countries corresponding to movies.csv.
@@ -18,6 +18,7 @@
 - **letterbox_anonym** -> this is the original dataset downloaded from kaggle at https://www.kaggle.com/datasets/rbertvmosi/letterboxd-ratings-14m
 - **m100_u200.csv** -> this is another type of sample where we only kept the top 100 movies and top 200 users.
 - **moviesR_usersA.csv** -> a sample where we took a random set of 500 movies and all users associated to them.
+- **augm_movies400.csv** -> a sample containing only movies with more than 400 ratings and all users that have rated them.
 
 ## **Structure of the notebooks**
 - In order to run our code used for our project, all notebooks we used are proposed in a numbered form which represents the order in which they are to be run.
