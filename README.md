@@ -51,7 +51,7 @@
 
 ### **Community Detection Algorithm**
 - **biloubvain_module.py**:
-      - This is our implementation of the Bilouvain algorithm.
+    - This is our implementation of the Bilouvain algorithm.
 - **Notebook 6**: Testing_And_Visualization
     - In the first part of this notebook, there is code which shows how the Graph has to be prepared to be given to our algorithm and how our algorithm can be run on specific data.
     - To run the algorithm with a different dataset, these steps should always be followed to ensure correct functioning of the algorithm.
@@ -76,3 +76,4 @@
 - If you want to look at our network exploration, then run notebook 5.
 - If you want to look at our implementation of a bilouvain community detection algorithm, then run the bilouvain notebook. The bilouvain implementation is stored inside bilouvain_module.py and used by the notebook.
 - If you want to look at the evaluation then run the evaluation notebooks.
+
