@@ -2,6 +2,7 @@
 ## Repository with all code for the processing, analysis, exploration, community detection and evaluation of our Lboxd network and community detection algorithm
 
 ### Disclaimer
+- **Python version used was mainly 3.11.8**
 - Our project was done mostly through jupyter notebooks, all of which are provided through this github repository, you can also find most datasets used in the Data folder.
 - The database we used to augment our network could not be compressed at a size low enough to add it to this github.
     - Download movies.csv at https://www.kaggle.com/datasets/gsimonx37/letterboxd
