@@ -60,7 +60,7 @@
 - add here
 
 
-## Recommendations
+## Teacher Recommendations
 ### If you want to run everything
 - Ensure that you download the letterboxd database "movies.csv" from the kaggle link provided on the top of the readme file.
 - Follow the order of the notebooks, multiple analysis and our logic is inside.
