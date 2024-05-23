@@ -61,7 +61,7 @@
     - In the second part of this notebook, the Graph is visualize, once with the nodes colored as their node types and once as their communities.
     - This was done with to different data sample sets:
         - RUNTIME for 'moviesR_usersA.csv': quite fast, a couple of minutes
-        - RUNTIME for 'augm_movies400.csv': longer, up to an hour
+        - RUNTIME for 'augm_movies400.csv': longer, around one hour
 
 ### **Evaluation [Zeynep Sema Aydin]**
 - add here
