@@ -46,6 +46,8 @@
     - This notebook computes the degree centrality and betweenness centrality of our dataset.
     - It also observes the top 10 users' and movies' depdending on DC and BC, and the average DC and BC.
     - The genre and country distribution is studied for these top movies and the plots are used in the report.
+    - RUNTIME: degree centrality runs very fast.
+    - RUNTIME: betweenness centrality took around 20 minutes to run on my macbook air M2 8gb RAM, 256gb SSD
 
 ### **Community Detection Algorithm**
 - **biloubvain_module.py**
