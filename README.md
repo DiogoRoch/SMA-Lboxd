@@ -22,7 +22,7 @@
 ## **Structure of the notebooks**
 - In order to run our code used for our project, all notebooks we used are proposed in a numbered form which represents the order in which they are to be run.
 
-### **Data Processing**
+### **Data Processing [Diogo Rocha]**
 - **Notebook 1**: Data_Processing
     - First exploration of the dataset.
     - This notebook cleans the data of missing values, casts the columns to their correct data types, codes each unique movie to a specific ID and adds those IDs as an additional column.
@@ -34,14 +34,14 @@
         - Sampling by randomly selecting a certain amount of movies.
         - Sampling by taking the top 200 users and top 100 movies (can also be expanded to take variable amounts of top users/movies)
 
-### **Data Augmentation**
+### **Data Augmentation [Diogo Rocha]**
 - **Notebook 2**: Data_Augmentation
     - Exploration of multiple databases (ended up only using movies.csv because the other one did not have many relevant movies while being extremely heavy)
     - Creation of the augmented_movies.csv that contains the movies from our original dataset with their respective augmentations (date, minute "duration", mean rating, genre, country)
 - **Notebook 3**: Data_Augmentation2
     - This notebook's role is to use the augmented_movies.csv and our lboxd_IDcoded.csv to merge them and produce an augmented dataset (that is stored in a zip file or can be obtained by running this notebook)
 
-### **Network Exploration**
+### **Network Exploration [Diogo Rocha]**
 - **Notebook 5**: Network_Exploration
     - This notebook computes the degree centrality and betweenness centrality of our dataset.
     - It also observes the top 10 users' and movies' depdending on DC and BC, and the average DC and BC.
@@ -49,21 +49,21 @@
     - RUNTIME: degree centrality runs very fast.
     - RUNTIME: betweenness centrality took around 20 minutes to run on my macbook air M2 8gb RAM, 256gb SSD
 
-### **Community Detection Algorithm**
+### **Community Detection Algorithm [Hannah Portmann]**
 - **biloubvain_module.py**:
     - This is our implementation of the Bilouvain algorithm.
 - **Notebook 6**: Testing_And_Visualization
     - In the first part of this notebook, there is code which shows how the Graph has to be prepared to be given to our algorithm and how our algorithm can be run on specific data.
     - To run the algorithm with a different dataset, these steps should always be followed to ensure correct functioning of the algorithm.
 
-### **Visualization**
+### **Network Visualization [Hannah Portmann]**
 - **Notebook 6**: Testing_And_Visualization
     - In the second part of this notebook, the Graph is visualize, once with the nodes colored as their node types and once as their communities.
     - This was done with to different data sample sets:
         - RUNTIME for 'moviesR_usersA.csv': quite fast, a couple of minutes
         - RUNTIME for 'augm_movies400.csv': longer, up to an hour
 
-### **Evaluation**
+### **Evaluation [Zeynep Sema Aydin]**
 - add here
 
 
