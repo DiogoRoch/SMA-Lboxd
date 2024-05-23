@@ -50,16 +50,18 @@
     - RUNTIME: betweenness centrality took around 20 minutes to run on my macbook air M2 8gb RAM, 256gb SSD
 
 ### **Community Detection Algorithm**
-- **biloubvain_module.py**
+- **biloubvain_module.py**:
+      - This is our implementation of the Bilouvain algorithm.
 - **Notebook 6**: Testing_And_Visualization
     - In the first part of this notebook, there is code which shows how the Graph has to be prepared to be given to our algorithm and how our algorithm can be run on specific data.
+    - To run the algorithm with a different dataset, these steps should always be followed to ensure correct functioning of the algorithm.
 
 ### **Visualization**
 - **Notebook 6**: Testing_And_Visualization
     - In the second part of this notebook, the Graph is visualize, once with the nodes colored as their node types and once as their communities.
     - This was done with to different data sample sets:
-          - RUNTIME for 'moviesR_usersA.csv': quite fast, a couple of minutes
-          - RUNTIME for 'augm_movies400.csv': longer, up to an hour
+        - RUNTIME for 'moviesR_usersA.csv': quite fast, a couple of minutes
+        - RUNTIME for 'augm_movies400.csv': longer, up to an hour
 
 ### **Evaluation**
 - add here
