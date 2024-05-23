@@ -51,10 +51,15 @@
 
 ### **Community Detection Algorithm**
 - **biloubvain_module.py**
-- **visuals and bilouvain**
+- **Notebook 6**: Testing_And_Visualization
+    - In the first part of this notebook, there is code which shows how the Graph has to be prepared to be given to our algorithm and how our algorithm can be run on specific data.
 
 ### **Visualization**
-- **visualization**
+- **Notebook 6**: Testing_And_Visualization
+    - In the second part of this notebook, the Graph is visualize, once with the nodes colored as their node types and once as their communities.
+    - This was done with to different data sample sets:
+          - RUNTIME for 'moviesR_usersA.csv': quite fast, a couple of minutes
+          - RUNTIME for 'augm_movies400.csv': longer, up to an hour
 
 ### **Evaluation**
 - add here
