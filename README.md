@@ -2,8 +2,9 @@
 ## Repository with all code for the processing, analysis, exploration, community detection and evaluation of our Lboxd network and community detection algorithm
 
 ### Disclaimer
-- **Python version used was mainly 3.11.8** and notebooks were mainly run with Visual Studio Code's jupyter extension.
-- Our project was done mostly through jupyter notebooks, all of which are provided through this github repository, you can also find most datasets used in the Data folder.
+- **Python version used was mainly 3.11.8** and notebooks were run with Visual Studio Code's jupyter extension.
+- All notebooks were tested 2 times in fresh python 3.11.8 virtual environments made with vs code in a macbook air M2 256gb SSD 8gb RAM by downloading the repository as a zip file into a fresh directory.
+- Our project was done mostly through jupyter notebooks, all of which are provided through this github repository, you can also find the datasets used in the Data folder.
 - The database we used to augment our network could not be compressed at a size low enough to add it to this github.
     - Download movies.csv at https://www.kaggle.com/datasets/gsimonx37/letterboxd
     - genres.csv and countries.csv however are inside the Data folder.
