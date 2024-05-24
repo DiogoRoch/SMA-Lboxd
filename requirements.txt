@@ -8,13 +8,12 @@ time
 community
 csv
 matplotlib.pyplot
-
-scikit-network # needs to be installed
-# and the following modules from it
-IPython.display import SVG
-sknetwork.clustering import Louvain, Leiden, get_modularity
-sknetwork.linalg import normalize
-sknetwork.utils import get_membership
-scipy import sparse
-sknetwork.visualization import visualize_bigraph
-from sknetwork.data import from_edge_list
+scikit-network 
+IPython.display 
+SVG
+sknetwork.clustering 
+sknetwork.linalg 
+sknetwork.utils 
+scipy 
+sknetwork.visualization
+sknetwork.data
