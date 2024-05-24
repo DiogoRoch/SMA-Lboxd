@@ -6,5 +6,4 @@ networkx
 igraph
 community
 scikit-network 
-sknetwork
 scipy
