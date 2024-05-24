@@ -4,6 +4,7 @@ matplotlib
 numpy
 networkx
 igraph
-community
 scikit-network 
 scipy
+ipykernel
+python-louvain
