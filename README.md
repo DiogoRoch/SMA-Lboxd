@@ -66,7 +66,10 @@
         - RUNTIME for 'augm_movies400.csv': longer, around one hour
 
 ### **Evaluation [Zeynep Sema Aydin]**
-- add here
+- **Notebook 7.1**
+    - This notebook consist of the main algorithm implementation. Data is randomly sampled, the sample with the optimal runtime - community quality is chosen, then the modularity value for that sample is calculated using sknetwork, with constructing the biadjacency matrix and obtaining the community labels for nodes. Then the results for chosen dataset is compared with results from other algorithms. It takes approx. 15 mins. to run this notebook if scikit-network is already installed.
+- **Notebook 7.2**
+    - This notebook is for getting the results for the whole dataset from comparison algorithms. It takes about a minute- a minute and a half to run if scikit-network is already installed. 
 
 
 ## Teacher Recommendations
