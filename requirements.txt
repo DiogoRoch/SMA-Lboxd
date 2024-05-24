@@ -7,7 +7,6 @@ igraph
 time
 community
 csv
-matplotlib.pyplot
 scikit-network 
 IPython.display 
 SVG
