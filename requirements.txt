@@ -4,9 +4,7 @@ matplotlib
 numpy
 networkx
 igraph
-time
 community
-csv
 scikit-network 
 IPython.display 
 SVG
