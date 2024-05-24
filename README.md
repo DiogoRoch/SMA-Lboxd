@@ -83,5 +83,5 @@
 - Ensure that you unzip our augmented dataset.
 - If you want to look at our network exploration, then run notebook 5.
 - If you want to look at our implementation of a bilouvain community detection algorithm, then run the bilouvain notebook. The bilouvain implementation is stored inside bilouvain_module.py and used by the notebook.
-- If you want to look at the evaluation then run the evaluation notebooks.
+- If you want to look at the evaluation then run the evaluation notebooks (7.1 and 7.2) -> 7.3 has some additional evaluations of communities using augmented data.
 
