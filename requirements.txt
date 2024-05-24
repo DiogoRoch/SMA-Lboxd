@@ -11,9 +11,5 @@ matplotlib.pyplot
 scikit-network 
 IPython.display 
 SVG
-sknetwork.clustering 
-sknetwork.linalg 
-sknetwork.utils 
+sknetwork
 scipy 
-sknetwork.visualization
-sknetwork.data
