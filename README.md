@@ -69,7 +69,9 @@
 - **Notebook 7.1**
     - This notebook consist of the main algorithm implementation. Data is randomly sampled, the sample with the optimal runtime - community quality is chosen, then the modularity value for that sample is calculated using sknetwork, with constructing the biadjacency matrix and obtaining the community labels for nodes. Then the results for chosen dataset is compared with results from other algorithms. It takes approx. 15 mins. to run this notebook if scikit-network is already installed.
 - **Notebook 7.2**
-    - This notebook is for getting the results for the whole dataset from comparison algorithms. It takes about a minute- a minute and a half to run if scikit-network is already installed. 
+    - This notebook is for getting the results for the whole dataset from comparison algorithms. It takes about a minute- a minute and a half to run if scikit-network is already installed.
+- **Notebook 7.3**
+    - This notebook is for getting information about the communities detected by our algorithm. It uses the augmented dataset to get the genre, country and release date information about the movies in communities and prints histograms of the counts in a community. It takes 4 minutes to run since it uses bilouvain implementation to get the communities 
 
 
 ## Teacher Recommendations
