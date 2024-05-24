@@ -6,7 +6,5 @@ networkx
 igraph
 community
 scikit-network 
-IPython.display 
-SVG
 sknetwork
-scipy 
+scipy
