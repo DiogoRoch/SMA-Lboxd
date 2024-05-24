@@ -9,8 +9,8 @@ community
 csv
 matplotlib.pyplot
 
-scikit-network
-and the following modules from it
+scikit-network # needs to be installed
+# and the following modules from it
 IPython.display import SVG
 sknetwork.clustering import Louvain, Leiden, get_modularity
 sknetwork.linalg import normalize
